@@ -140,6 +140,12 @@ Upon execution, the script successfully completed the following results:
 **Established a maximum password age to mandate periodic credential rotation:**
 ![MaxAge](Images/PasswordAge.png)
 
+---
+
+## Client workstation Domain Join
+
+
+
 
 
 
