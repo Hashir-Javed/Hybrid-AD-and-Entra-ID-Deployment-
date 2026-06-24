@@ -24,7 +24,7 @@ This project demonstrates the setup and management of a hybrid IT environment th
 ---
 
 ## Automated User and Infrastructure Management
-To simulate a scalable corporate environment and avoid inefficient manual data entry, a custom **PowerShell script** was executed on the Domain Controller (CoreDC1). This script programmatically built the complete nested Organizational Unit (OU) hierarchy and bulk-provisioned department-specific user accounts with standard corporate attributes.
+To simulate a scalable corporate environment and avoid inefficient manual data entry, a custom **PowerShell script** was executed on the Domain Controller (CoreDC1). This script built the complete nested Organizational Unit (OU) hierarchy and bulk-provisioned department-specific user accounts with standard corporate attributes.
 
 ### 1. Hierarchy Strategy
 The hierarchy is structured to separate administrative controls cleanly. The root container **CoreTech-Corporate** isolates lab assets from default Windows service objects, splitting them into:
@@ -41,17 +41,17 @@ $MainOU = "OU=CoreTech-Corporate,DC=coretech,DC=lab"
 $Password = ConvertTo-SecureString "Password321" -AsPlainText -Force
 
 # 1. Create the base sub-OUs
-New-ADOrganizationalUnit -Name "Groups" -Path $MainOU
-New-ADOrganizationalUnit -Name "Workstations" -Path $MainOU
-New-ADOrganizationalUnit -Name "Users" -Path $MainOU
+New-ADOrganizationalUnit -Name "Groups" -Path $MainOU -ProtectedFromAccidentalDeletion $true
+New-ADOrganizationalUnit -Name "Workstations" -Path $MainOU -ProtectedFromAccidentalDeletion $true
+New-ADOrganizationalUnit -Name "Users" -Path $MainOU -ProtectedFromAccidentalDeletion $true
 
 # Define the path to the newly created Users OU
 $UsersOU = "OU=Users,$MainOU"
 
 # 2. Create the Department OUs inside the Users OU
-New-ADOrganizationalUnit -Name "IT" -Path $UsersOU
-New-ADOrganizationalUnit -Name "Sales" -Path $UsersOU
-New-ADOrganizationalUnit -Name "Finance" -Path $UsersOU
+New-ADOrganizationalUnit -Name "IT" -Path $UsersOU -ProtectedFromAccidentalDeletion $true
+New-ADOrganizationalUnit -Name "Sales" -Path $UsersOU -ProtectedFromAccidentalDeletion $true
+New-ADOrganizationalUnit -Name "Finance" -Path $UsersOU -ProtectedFromAccidentalDeletion $true
 
 # 3. Create the Users in their respective department OU folders
 
