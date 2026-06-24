@@ -103,6 +103,8 @@ Upon execution, the script successfully completed the following results:
 **All 3 required groups populated under the top-level corporate OU:**
 ![Groups](Images/Groups.png)
 
+
+
 #
 
 ### Employees are provisioned into their respective department OUs under the central Users OU:
