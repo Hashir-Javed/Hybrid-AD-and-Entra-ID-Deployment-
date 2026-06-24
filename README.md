@@ -15,7 +15,7 @@ This project demonstrates the setup and management of a hybrid IT environment th
 
 ## Technologies Used
 * **Hypervisor:** VMware Workstation Pro (Configured with isolated NAT networking)
-* **Operating Systems:** Windows Server 2022 (Standard Evaluation), Windows 11 Pro
+* **Operating Systems:** Windows Server 2022 (Standard Evaluation), Windows 10 Pro
 * **Directory & Identity Services:** Active Directory Domain Services (AD DS), Microsoft Entra ID (Azure AD)
 * **Identity Synchronization:** Microsoft Entra Connect
 * **Network Services:** DNS (Domain Name System)
