@@ -22,10 +22,6 @@ This project demonstrates the setup and management of a hybrid IT environment th
 * **Administration & Automation:** Windows PowerShell, Group Policy Management, Active Directory Users and Computers (ADUC)
 
 ---
-### DNS Console displaying forward lookup zone and addressing for CoreDC1
-![DNS-DC](Images/DNS-DC.png)
-
----
 
 ## Automated User and Infrastructure Management
 To simulate a scalable corporate environment and avoid inefficient manual data entry, a custom **PowerShell script** was executed on the Domain Controller (CoreDC1). This script built the complete nested Organizational Unit (OU) hierarchy and bulk-provisioned department-specific user accounts with standard corporate attributes.
