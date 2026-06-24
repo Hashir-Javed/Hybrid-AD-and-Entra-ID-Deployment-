@@ -127,13 +127,22 @@ Upon execution, the script successfully completed the following results:
 
 ## Security Policies
 
-Updated the Default Domain Policy through Group Policy Management to establish a secure authentication baseline for all user accounts.
+**Updated the Default Domain Policy through Group Policy Management to establish a secure authentication baseline for all user accounts**
 
-**Configurations:**
-- **`Established a strict minimum password length`**
-- **`Implemented an account lockout threshold to mitigate brute-force attacks`**
-- **`Established a maximum password age to mandate periodic credential rotation`**
+### **Configurations:**
 
+**Established a strict minimum password length:**
+![Min](Images/Min-Password.png)
+
+#
+  
+**Implemented an account lockout threshold to mitigate brute-force attacks:**
+![Lockout](Images/Lockout.png)
+
+#
+  
+**Established a maximum password age to mandate periodic credential rotation:**
+![MaxAge](Images/PasswordAge.png)
 
 
 
