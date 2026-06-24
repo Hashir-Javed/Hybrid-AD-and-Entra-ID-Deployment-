@@ -67,7 +67,7 @@ New-ADUser -Name "Alex Wong" -SamAccountName "awong" -UserPrincipalName "awong@c
 
 ### 3. Configuration Results
 Upon execution, the script successfully:
-* Built the multi-tiered OU architecture.
+* Built the multi-tiered OU architecture under the top-level CoreTech-Corporate OU
 * Populated the **Department** attribute for all objects to ensure granular directory tracking.
 * Enforced standard security compliance by setting initial secure passwords and checking the **ChangePasswordAtLogon** flag for all new hires.
 
