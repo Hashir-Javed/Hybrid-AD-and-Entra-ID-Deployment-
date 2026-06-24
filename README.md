@@ -55,9 +55,9 @@ New-ADOrganizationalUnit -Name "Sales" -Path $UsersOU -ProtectedFromAccidentalDe
 New-ADOrganizationalUnit -Name "Finance" -Path $UsersOU -ProtectedFromAccidentalDeletion $true
 
 # 3. Create the Department Security Groups inside the Groups OU
-New-ADGroup -Name "IT-Group" -GroupScope Global -GroupCategory Security -Path $GroupsOU -ProtectedFromAccidentalDeletion $true
-New-ADGroup -Name "Sales-Group" -GroupScope Global -GroupCategory Security -Path $GroupsOU -ProtectedFromAccidentalDeletion $true
-New-ADGroup -Name "Finance-Group" -GroupScope Global -GroupCategory Security -Path $GroupsOU -ProtectedFromAccidentalDeletion $true
+New-ADGroup -Name "IT-Group" -GroupScope Global -GroupCategory Security -Path $GroupsOU
+New-ADGroup -Name "Sales-Group" -GroupScope Global -GroupCategory Security -Path $GroupsOU
+New-ADGroup -Name "Finance-Group" -GroupScope Global -GroupCategory Security -Path $GroupsOU
 
 # 4. Create the Users in their respective department OU folders
 # James Blake in IT
@@ -83,4 +83,6 @@ Upon execution, the script successfully completed the following results:
 * **Departmental Separation:** Inside the `Users` OU, sub-OUs for `IT`, `Sales`, and `Finance` were successfully built.
 * **Security Groups Provisioned:** Three core Global Security groups (`IT-Group`, `Sales-Group`, and `Finance-Group`) were created under the `Groups` OU.
 * **Automated User Provisioning:** The script automatically created the three initial corporate users, completely filled out their required attributes, and added each user into their respective security group.
+
+
 
