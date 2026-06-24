@@ -84,5 +84,8 @@ Upon execution, the script successfully completed the following results:
 * **Security Groups Provisioned:** Three core Global Security groups (`IT-Group`, `Sales-Group`, and `Finance-Group`) were created under the `Groups` OU.
 * **Automated User Provisioning:** The script automatically created the three initial corporate users, completely filled out their required attributes, and added each user into their respective security group.
 
+Powershell Script executed:
+
+
 
 
