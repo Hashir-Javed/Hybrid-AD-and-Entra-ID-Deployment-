@@ -103,23 +103,24 @@ Upon execution, the script successfully completed the following results:
 **All 3 required groups populated under the top-level corporate OU:**
 ![Groups](Images/Groups.png)
 
-
+**Group Memberships:**
+![GroupMemberships](Images/GroupMembership.png)
 
 #
 
 ### Employees are provisioned into their respective department OUs under the central Users OU:
 
-Alex Wong - Finance:
+**Alex Wong - Finance:**
 ![Alex](Images/Finance-AlexWong.png)
 
 #
 
-James Blake - IT:
+**James Blake - IT:**
 ![James](Images/IT-JamesBlake.png)
 
 #
 
-Jon Jones - Sales:
+**Jon Jones - Sales:**
 ![Jon](Images/Sales-JonJones.png)
 
 
