@@ -144,7 +144,20 @@ Upon execution, the script successfully completed the following results:
 
 ## Client workstation Domain Join
 
+**Domain join successful:**
+![Join](Images/DomainJoin.png)
 
+#
+
+**Domain joined workstation in approriate OU:**
+![workstation](Images/workstation.png)
+
+#
+
+**Test access to domain login with user James Blake:**
+![jblake](Images/JamesBlake.png)
+
+---
 
 
 
