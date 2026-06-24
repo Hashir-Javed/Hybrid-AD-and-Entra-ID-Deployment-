@@ -38,7 +38,7 @@ The following automated configuration script was executed via PowerShell ISE wit
 ```powershell
 # Define the main root folder path
 $MainOU = "OU=CoreTech-Corporate,DC=coretech,DC=lab"
-$Password = ConvertTo-SecureString "LabPassword123!" -AsPlainText -Force
+$Password = ConvertTo-SecureString "Password321" -AsPlainText -Force
 
 # 1. Create the base sub-OUs
 New-ADOrganizationalUnit -Name "Groups" -Path $MainOU
