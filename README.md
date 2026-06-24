@@ -3,16 +3,15 @@
 
 ## Project Overview
 
-
 ---
 
 
 ## Network Diagram
+![diagram](Images/diagram.png)
 
 ---
 
 
 ## Technologies Used
-
 
 ---
