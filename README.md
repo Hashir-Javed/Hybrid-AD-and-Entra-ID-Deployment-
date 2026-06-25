@@ -156,22 +156,43 @@ Upon execution, the script successfully completed the following results:
 
 ---
 
-## On-Prem to Entra ID syncronization
+## On-Prem to Entra ID synchronization
 **Installed Entra Connect Sync on CoreDC1 to sync the neccassary corporate OU which included the Users and Groups OUs to be synced successfully to the Entra ID cloud environment**
 
 **The following images verify the status of the sync and display the synced users and groups:**
 
-![jblake](Images/JamesBlake.png)
+**Connect Sync Status:**
+![ConnectSync](Images/ConnectSync.png)
 
+#
 
-![jblake](Images/JamesBlake.png)
+**Synced Users:**
+![EntraUsers](Images/EntraUsers.png)
 
+#
 
-![jblake](Images/JamesBlake.png)
+**Finance-Group:**
+![Finance-group](Images/Finance-group.png)
 
+#
 
-![jblake](Images/JamesBlake.png)
+**IT-Group:**
+![IT-group](Images/IT-group.png)
 
+#
+
+**Sales-Group:**
+![Sales-group](Images/Sales-group.png)
+
+---
+
+**Final Skills demonstrated:**
+- **`Active Directory administration (Users, Groups, OUs, Group Policy Management)`**
+- **`Automated Infrastructure Deployment (Windows Powershell)`**
+- **`Domain join operations (Windows 11 client workstation)`**
+- **`Microsoft Entra ID & On-Prem integration (hybrid identity)`**
+- **`Microsoft Entra Connect configuration (directory synchronization)`**
+- **`DNS configuration (Active Directory domain resolution)`**
 
 
 
