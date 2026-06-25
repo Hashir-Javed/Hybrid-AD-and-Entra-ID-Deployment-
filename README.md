@@ -159,8 +159,10 @@ Upon execution, the script successfully completed the following results:
 
 ---
 
+## Entra Connect Sync results
+Installed Entra connect sync on the Domain Controller to sync the neccassary corporate OU which included the Users and Groups OUs to be synced successfully to the entra ID cloud environment. 
 
-
+The following images verify the status of the sync
 
 
 
