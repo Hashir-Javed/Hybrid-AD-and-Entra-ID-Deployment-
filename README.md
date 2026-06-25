@@ -1,4 +1,4 @@
-# 🌐Hybrid AD & Entra ID Deployment
+# 🌐Hybrid Active Directory & Entra ID Deployment
 
 
 ## Project Overview
