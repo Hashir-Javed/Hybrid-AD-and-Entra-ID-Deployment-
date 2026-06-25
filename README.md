@@ -1,17 +1,14 @@
 # 🌐Hybrid Active Directory & Entra ID Deployment
 
-
 ## Project Overview
 This project demonstrates the setup and management of a hybrid IT environment that combines on-premises infrastructure with cloud services. It focuses on identity and access management, including user account provisioning, group management, authentication, and endpoint administration. The goal is to build and maintain a secure and scalable environment that reflects how many modern small-to-medium businesses manage users, devices, and resources across both on-premises and cloud platforms.
 
 ---
 
-
 ## Network Diagram
 ![diagram](Images/diagram.png)
 
 ---
-
 
 ## Technologies Used
 * **Hypervisor:** VMware Workstation Pro (Configured with isolated NAT networking)
@@ -159,11 +156,23 @@ Upon execution, the script successfully completed the following results:
 
 ---
 
-## Entra Connect Sync results
-**Installed Entra connect sync on the Domain Controller to sync the neccassary corporate OU which included the Users and Groups OUs to be synced successfully to the entra ID cloud environment**
+## On-Prem to Entra ID syncronization
+**Installed Entra Connect Sync on CoreDC1 to sync the neccassary corporate OU which included the Users and Groups OUs to be synced successfully to the Entra ID cloud environment**
 
 **The following images verify the status of the sync and display the synced users and groups:**
+
 ![jblake](Images/JamesBlake.png)
+
+
+![jblake](Images/JamesBlake.png)
+
+
+![jblake](Images/JamesBlake.png)
+
+
+![jblake](Images/JamesBlake.png)
+
+
 
 
 
